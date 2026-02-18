@@ -1,0 +1,135 @@
+Хайнц Фуфелшмертц, [18.02.2026 16:04]
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Этот код можно вставить через плагин "Figma HTML" */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: white;
+      width: 375px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Мобильный фрейм 375x812 -->
+  <div style="width: 375px; background: white; padding: 16px; box-sizing: border-box;">
+
+    <!-- Header с поиском -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #F2F2F7; padding: 12px 16px; border-radius: 12px; margin-bottom: 12px; color: #8E8E93; font-size: 17px;">
+        🔍 Search...
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <div style="width: 40px; height: 40px; border-radius: 20px; background: #007AFF;"></div>
+        <div style="font-weight: 500; color: #000;">username@email.com</div>
+      </div>
+    </div>
+
+    <!-- Категории (горизонтальный скролл) -->
+    <div style="margin-bottom: 24px; overflow-x: auto; white-space: nowrap; padding-bottom: 8px;">
+      <span style="display: inline-block; background: #F2F2F7; padding: 8px 16px; border-radius: 20px; margin-right: 8px; font-size: 15px;">📱 Electronics</span>
+      <span style="display: inline-block; background: #F2F2F7; padding: 8px 16px; border-radius: 20px; margin-right: 8px; font-size: 15px;">👕 Fashion</span>
+      <span style="display: inline-block; background: #F2F2F7; padding: 8px 16px; border-radius: 20px; margin-right: 8px; font-size: 15px;">🛒 Grocery</span>
+      <span style="display: inline-block; background: #F2F2F7; padding: 8px 16px; border-radius: 20px; margin-right: 8px; font-size: 15px;">🏠 Home</span>
+      <span style="display: inline-block; background: #F2F2F7; padding: 8px 16px; border-radius: 20px; margin-right: 8px; font-size: 15px;">📚 Books</span>
+      <span style="display: inline-block; background: #F2F2F7; padding: 8px 16px; border-radius: 20px; margin-right: 8px; font-size: 15px;">⚽ Sports</span>
+      <span style="display: inline-block; background: #F2F2F7; padding: 8px 16px; border-radius: 20px; margin-right: 8px; font-size: 15px;">👜 Accessories</span>
+      <span style="display: inline-block; background: #F2F2F7; padding: 8px 16px; border-radius: 20px; margin-right: 8px; font-size: 15px;">✈️ Travel</span>
+      <span style="display: inline-block; background: #F2F2F7; padding: 8px 16px; border-radius: 20px; margin-right: 8px; font-size: 15px;">❤️ Favourites</span>
+      <span style="display: inline-block; background: #F2F2F7; padding: 8px 16px; border-radius: 20px; margin-right: 8px; font-size: 15px;">🔔 Notifications</span>
+      <span style="display: inline-block; background: #F2F2F7; padding: 8px 16px; border-radius: 20px; margin-right: 8px; font-size: 15px;">📍 Tracking</span>
+    </div>
+
+    <!-- Popular Products -->
+    <h2 style="font-size: 24px; font-weight: 700; margin: 0 0 16px 0;">Popular Products</h2>
+    
+    <!-- My Orders -->
+    <div style="font-size: 18px; font-weight: 600; margin: 0 0 12px 0;">My Orders</div>
+    
+    <!-- Product Card 1 -->
+    <div style="background: white; border-radius: 16px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 16px; border: 1px solid #E5E5EA;">
+      <div style="display: flex; gap: 12px;">
+        <div style="width: 80px; height: 80px; background: #F2F2F7; border-radius: 12px;"></div>
+        <div style="flex: 1;">
+          <div style="font-weight: 600; font-size: 16px; margin-bottom: 4px;">Model Name</div>
+          <div style="color: #8E8E93; font-size: 14px; margin-bottom: 4px;">Select best of brand.</div>
+          <div style="color: #FFB800; margin-bottom: 8px;">⭐⭐⭐⭐⭐ 120 stars</div>
+          <div style="display: flex; gap: 8px;">
+            <span style="background: #34C759; color: white; padding: 4px 12px; border-radius: 20px; font-size: 13px;">Delivered</span>
+            <span style="background: #007AFF; color: white; padding: 4px 12px; border-radius: 20px; font-size: 13px;">Accepted</span>
+          </div>
+
+
+</div>
+      </div>
+    </div>
+
+    <!-- Order Details -->
+    <h2 style="font-size: 24px; font-weight: 700; margin: 24px 0 16px 0;">Order Details</h2>
+    
+    <!-- Product Card 2 -->
+    <div style="background: white; border-radius: 16px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 24px;">
+      <div style="font-weight: 600; font-size: 18px; margin-bottom: 4px;">Model Name</div>
+      <div style="color: #8E8E93; font-size: 14px; margin-bottom: 4px;">Select best of brand.</div>
+      <div style="color: #FFB800; margin-bottom: 8px;">⭐⭐⭐⭐⭐ 120 stars</div>
+      <div style="font-weight: 700; font-size: 20px; color: #000;">Rs. 999</div>
+    </div>
+
+    <!-- Filter Section -->
+    <div style="background: #F2F2F7; border-radius: 16px; padding: 16px; margin-bottom: 24px;">
+      <div style="font-weight: 600; font-size: 20px; margin-bottom: 12px;">Filter</div>
+      
+      <!-- Sort by Popular -->
+      <div style="margin-bottom: 16px;">
+        <div style="font-weight: 500; margin-bottom: 8px;">Sort by Popular</div>
+        <div style="background: white; padding: 12px; border-radius: 12px;">
+          <div style="display: flex; justify-content: space-between;">
+            <span>Model Name</span>
+            <span style="color: #8E8E93;">on db (120)</span>
+            <span style="font-weight: 600;">Rs. 999</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sort by Popular (второй вариант) -->
+      <div style="margin-bottom: 16px;">
+        <div style="font-weight: 500; margin-bottom: 8px;">Sort by Popular</div>
+        <div style="background: white; padding: 12px; border-radius: 12px;">
+          <div style="display: flex; justify-content: space-between;">
+            <span>Model Name</span>
+            <span style="color: #8E8E93;">on db (120)</span>
+            <span style="font-weight: 600;">Rs. R. 999</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Checkbox фильтры -->
+      <div style="margin-bottom: 8px;">
+        <div style="font-weight: 500; margin-bottom: 12px;">Filter</div>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <label style="display: flex; align-items: center; gap: 8px;">
+            <input type="checkbox" style="width: 20px; height: 20px;"> Onter Approved
+          </label>
+          <label style="display: flex; align-items: center; gap: 8px;">
+            <input type="checkbox" style="width: 20px; height: 20px;"> Out ter Delivery
+          </label>
+          <label style="display: flex; align-items: center; gap: 8px;">
+            <input type="checkbox" style="width: 20px; height: 20px;"> Delivered
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Delivery Address -->
+    <div style="background: #F2F2F7; border-radius: 16px; padding: 16px;">
+      <div style="font-weight: 600; font-size: 16px; margin-bottom: 8px;">Delivery Address</div>
+      <div style="font-weight: 500; margin-bottom: 4px;">Pep reartt</div>
+      <div style="color: #8E8E93;">Visu *** 10 Jd</div>
+    </div>
+
+  </div>
+</body>
+</html>
